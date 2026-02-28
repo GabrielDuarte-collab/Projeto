@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class auladez {
+public class AprendFloat {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         float N = 0;

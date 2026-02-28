@@ -17,18 +17,18 @@ public class Adivinhar {
             System.out.print("Adivinhe o valor que esta entre 1 e 100: ");
             int N = sc.nextInt();
             if (N == aleatorio) {
-                System.out.println("Parabens,voce e o cara!");
-                break;
+            System.out.println("Parabens,voce e o cara!");
+            break;
             } else {
-                ntentativas = ntentativas - 1;
-                System.out.printf("Voce tem ainda %d\n", ntentativas);
+            ntentativas = ntentativas - 1;
+            System.out.printf("Voce tem ainda %d\n", ntentativas);
             }
             if (ntentativas < 1000) {
-                System.out.println("Voce errou, tente novamente!");
-                System.out.println(aleatorio);
-                continue;
+            System.out.println("Voce errou, tente novamente!");
+            System.out.println(aleatorio);
+            continue;
             } else {
-                System.out.printf("Acabou as tentativas, o numero correto e: %d\n", aleatorio);
+            System.out.printf("Acabou as tentativas, o numero correto e: %d\n", aleatorio);
 
             }
         }
